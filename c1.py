@@ -49,7 +49,7 @@ def find(s: str) -> int:
             return int(first_letter_digit + last_letter_digit)
     
 
-with open('i11.txt', 'r') as f:
+with open('i1.txt', 'r') as f:
     s = 0
     for line in f.readlines():
         #temp = re.findall(r'\d+', line)
